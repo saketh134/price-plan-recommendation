@@ -1,0 +1,4 @@
+Phone_Number,Customer_Cluster,Plan_ID,Plan_Level,Monthly_Price,Suitability_Score,Reason,Rank
+327-6087,3,P11,Basic,200,80.01,"Day usage covered, Evening usage covered, Night usage covered",1
+327-6087,3,P16,Basic,200,78.64,"Day usage covered, Evening usage covered, Night usage covered",2
+327-6087,3,P06,Basic,200,76.29,"Evening usage covered, Night usage covered",3
