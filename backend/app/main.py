@@ -7,15 +7,13 @@ from typing import Any, Dict, List, Optional
 # ============================================================
 # EXISTING ROUTES
 # ============================================================
-
-from app.routes.customer_routes import (
+from backend.app.routes.customer_routes import (
     router as customer_router
 )
 
-from app.routes.recommendation_routes import (
+from backend.app.routes.recommendation_routes import (
     router as recommendation_router
 )
-
 
 # ============================================================
 # FASTAPI APPLICATION
@@ -40,9 +38,10 @@ app.add_middleware(
     CORSMiddleware,
 
     allow_origins=[
-        "http://localhost:5173",
-        "http://127.0.0.1:5173",
-    ],
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "https://price-plan-recommendation-frontend.onrender.com",
+],
 
     allow_credentials=True,
 
