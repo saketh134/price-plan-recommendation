@@ -7,14 +7,13 @@ from typing import Any, Dict, List, Optional
 # ============================================================
 # EXISTING ROUTES
 # ============================================================
-from backend.app.routes.customer_routes import (
+from app.routes.customer_routes import (
     router as customer_router
 )
 
-from backend.app.routes.recommendation_routes import (
+from app.routes.recommendation_routes import (
     router as recommendation_router
 )
-
 # ============================================================
 # FASTAPI APPLICATION
 # ============================================================
